@@ -17,7 +17,6 @@ def desenhar_movimento(rex, bob, oli):
         elif abs(bob - oli) == 0:
             return "Bob"
 
-        # Mover Rex e Bob
         if rex < oli:
             rex += 1
         elif rex > oli:
